@@ -5,6 +5,7 @@
   font-family: 'Mukta', sans-serif;
 }
 
+
 @mixin responsive($width) {
   @media screen and (max-width: $width) {
     @content;
@@ -17,7 +18,14 @@ body {
   width: 100%;
   height: 100vh;
 
+  overflow-y: hidden;
+
   background: $blue-dark;
+  
+  @include responsive(960px) {
+    overflow-y: visible;
+  }
+
 }
 
 img, svg {
