@@ -28,6 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
     { y: -50, opacity: 0 },
     { y: 0, opacity: 1, ease: Expo.easeInOut },
     '-=0.5')
+
+  .fromTo(
+    '.nav-list',
+    0.7,
+    { y: -50, opacity: 0 },
+    { y: 0, opacity: 1, ease: Expo.easeInOut },
+    '-=0.5')
   
   .fromTo(
     '.nav-social',
@@ -70,4 +77,12 @@ document.addEventListener('DOMContentLoaded', () => {
       { y: -50, opacity: 0 },
       { y: 0, opacity: 1, ease: Expo.easeInOut },
       '-=0.5')  
+})
+
+const menuBtn = document.querySelector('.bx-label')
+menuBtn.addEventListener('click', () => {
+  document
+  .querySelector('.bx-content')
+  .classList
+  .toggle('is-active')
 })
