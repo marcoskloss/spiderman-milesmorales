@@ -1,8 +1,14 @@
 # Spider-man: Miles Morales
 
-[marcoskloss-spiderman-milesmorales.netlify.app](https://marcoskloss-spiderman-milesmorales.netlify.app/)
-
 Esse projeto foi proporcionado pelo evento FrontWeek, conduzido pelo instrutor Násser Yousef Ali. Nele foi desenvolvido uma página com um tom mais entusiasta, representando o lançamento do jogo do Spider-man: Miles Morales.
+
+**Veja o projeto online aqui**: [marcoskloss-spiderman-milesmorales.netlify.app](https://marcoskloss-spiderman-milesmorales.netlify.app/)
+
+## Desktop
+![](./preview/spiderman-desktop.png)
+
+## Mobile
+![](./preview/spiderman-mobile.png)
     
 ## Tecnologias utilizadas
    - HTML
